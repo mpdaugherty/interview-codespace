@@ -12,7 +12,9 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "src/App.js"
+        "README.md",
+        "src/App.js",
+        "http://mpdaugherty.com"
       ]
     }
   },
