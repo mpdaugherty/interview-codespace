@@ -13,8 +13,7 @@
     "codespaces": {
       "openFiles": [
         "README.md",
-        "src/App.js",
-        "http://mpdaugherty.com"
+        "src/App.jsx"
       ]
     }
   },
