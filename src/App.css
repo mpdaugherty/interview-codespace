@@ -29,3 +29,24 @@
 .small {
   font-size: 0.75rem;
 }
+
+.minesweeper-field {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.minesweeper-cell {
+  width: 2rem; /* Tailwind's w-8 */
+  height: 2rem; /* Tailwind's h-8 */
+  margin: 0;
+  display: flex;
+  align-items: center; /* Tailwind's items-center */
+  justify-content: center; /* Tailwind's justify-center */
+  font-size: 0.75rem; /* Tailwind's text-xs */
+  border: 1px solid #E5E7EB; /* Tailwind's border border-gray-200 */
+  background-color: #78716C; /* Tailwind's bg-stone-400 */
+  box-shadow: 0 1px 2px 0 rgba(55, 48, 163, 0.05), 0 1px 3px 1px rgba(55, 48, 163, 0.1); /* Tailwind's shadow shadow-stone-600 */
+}

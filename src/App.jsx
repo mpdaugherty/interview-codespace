@@ -11,16 +11,38 @@ function App() {
         <p className="small">
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </p>
+      
+        <div class="minesweeper-field">
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+          <div class="minesweeper-cell"></div>
+        </div>
       </header>
     </div>
   );
